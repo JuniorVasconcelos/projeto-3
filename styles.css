@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin: 44px 0 144px 76px
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-log {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 50px;
+    background: #665AE1;
+    font-Weight: 600;
+    font-Size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+}
+
+.logo-image {
+    Width: 568px;
+    Height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 35px;
+
+
+
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    text-align: center;
+
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin-left: 30px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+
+}
+
+.button-main {
+
+
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .link-header {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .logo-image {
+        position: static;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+
+        font-size: 80px;
+        font-weight: 900;
+        margin-left: 50px;
+        line-height: normal;
+        width: max-content;
+
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-left: 80px;
+        width: max-content;
+
+    }
+
+    p {
+
+        display: none;
+    }
+
+    .button-main {
+
+        margin-left: 135px;
+        width: 239px;
+        height: 64px;
+        text-align: center;
+        bottom: auto;
+    }
+
+}
